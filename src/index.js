@@ -12,5 +12,5 @@ app.use("/rental", rental_router)
 app.use("/student", student_router)
 
 app.listen(port, () => {
-    console.log(`Server is running in ${port} .`)
+    console.log(`Server is running in ${port}.`)
 })
